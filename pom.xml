@@ -37,6 +37,12 @@
             <version>2.2</version> <!-- Перевірте останню версію на офіційному сайті Hamcrest -->
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <reporting>

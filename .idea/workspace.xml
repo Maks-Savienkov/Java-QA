@@ -5,73 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e06922e-1aa2-42fe-bab5-8ea6772c185b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/site/surefire-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/main/java/cdu/edu/ua/lab2/Lab2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/main/java/cdu/edu/ua/lab2/ScoresStatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/test/java/cdu/edu/ua/lab2/Lab2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/src/test/java/cdu/edu/ua/lab2/ScoresStatUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/src/main/java/cdu/edu/ua/lab3/Lab3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/src/test/java/cdu/edu/ua/lab3/Lab3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/src/test/java/cdu/edu/ua/lab3/RestAssuredDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/css/maven-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/css/maven-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/collapsed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/expanded.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/external.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/icon_error_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/icon_info_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/icon_success_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/icon_warning_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/logos/build-by-maven-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/logos/build-by-maven-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/logos/maven-feather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/images/newwindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/surefire-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/Lab2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/ScoresStatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cdu/edu/ua/Lab2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cdu/edu/ua/ScoresStatUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/maven-base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/maven-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/collapsed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/expanded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/external.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/icon_error_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/icon_info_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/icon_success_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/icon_warning_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/logos/build-by-maven-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/logos/build-by-maven-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/logos/maven-feather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/newwindow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/surefire-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/ScoresStatUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cdu/edu/ua/ScoresStatUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/css/maven-base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/css/maven-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/collapsed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/expanded.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/external.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/icon_error_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/icon_info_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/icon_success_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/icon_warning_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/logos/build-by-maven-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/logos/build-by-maven-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/logos/maven-feather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/images/newwindow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/site/surefire-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/cdu/edu/ua/lab2/Lab2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/cdu/edu/ua/lab2/ScoresStatUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/test/java/cdu/edu/ua/lab2/Lab2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/test/java/cdu/edu/ua/lab2/ScoresStatUtilTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Lab1">
@@ -107,7 +93,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lab2" />
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -157,7 +144,7 @@
       <command value="mvn clean surefire-report:report" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RestAssuredDemoTest">
+  <component name="RunManager" selected="JUnit.ScoresStatUtilTest">
     <configuration name="RestAssuredDemoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,29 +214,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestAssuredDemoTest.should_return_bad_request_when_body_is_invalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab3" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;cdu.edu.ua.lab3.RestAssuredDemoTest.should_return_bad_request_when_body_is_invalid&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="RestAssuredDemoTest.should_return_bad_request_when_dueDate_is_late" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -273,6 +237,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ScoresStatUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cdu.edu.ua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cdu.edu.ua" />
+      <option name="MAIN_CLASS_NAME" value="cdu.edu.ua.ScoresStatUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Lab1.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab1.Lab1Application" />
@@ -280,16 +259,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Lab2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cdu.edu.ua.lab2.Lab2Application" />
+    <configuration name="Lab2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lab2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab2.Lab2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Lab2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Lab2.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab2.Lab2Application" />
+      <module name="QA-labs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cdu.edu.ua.Lab2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScoresStatUtilTest" />
         <item itemvalue="Gradle.RestAssuredDemoTest" />
         <item itemvalue="Gradle.RestAssuredDemoTest.GetFilteredTestData_should_return_OK_when_resource_not_exists" />
         <item itemvalue="Gradle.RestAssuredDemoTest.getFilteredTestData" />
         <item itemvalue="Gradle.RestAssuredDemoTest.should_return_bad_request_when_dueDate_is_late" />
-        <item itemvalue="Gradle.RestAssuredDemoTest.should_return_bad_request_when_body_is_invalid" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +307,7 @@
       <workItem from="1709222460519" duration="364000" />
       <workItem from="1709755753066" duration="2258000" />
       <workItem from="1709821089521" duration="731000" />
-      <workItem from="1709916709788" duration="4109000" />
+      <workItem from="1709916709788" duration="5022000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1709023511464</created>
@@ -337,11 +316,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709023511464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1709998797076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709998797076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_ROOT_NAMES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />

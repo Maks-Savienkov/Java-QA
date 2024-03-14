@@ -103,7 +103,7 @@ public class RestAssuredDemoTest {
     }
 
     @Test
-    void shouldGetActivities() {
+    void should_get_activities() {
         given()
                 .baseUri(URL_1)
                 .contentType(ContentType.JSON)
@@ -114,7 +114,7 @@ public class RestAssuredDemoTest {
     }
 
     @Test
-    void shouldCreateActivity() {
+    void should_create_activity() {
         given()
                 .baseUri(URL_1)
                 .contentType(ContentType.JSON)
@@ -126,7 +126,7 @@ public class RestAssuredDemoTest {
     }
 
     @Test
-    void shouldUpdateActivity() {
+    void should_update_activity() {
         given()
                 .baseUri(URL_1)
                 .contentType(ContentType.JSON)
@@ -139,7 +139,7 @@ public class RestAssuredDemoTest {
     }
 
     @Test
-    void shouldDeleteActivity() {
+    void should_delete_activity() {
         given()
                 .baseUri(URL_1)
                 .contentType(ContentType.JSON)

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e06922e-1aa2-42fe-bab5-8ea6772c185b" name="Changes" comment="lab 4 done">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/service/EmailService.java" afterDir="false" />
+    <list default="true" id="4e06922e-1aa2-42fe-bab5-8ea6772c185b" name="Changes" comment="lab 4 add test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/exception/EmailSendingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cdu/edu/ua/exception/EmailSendingException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cdu/edu/ua/service/EmailServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cdu/edu/ua/service/EmailServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,30 +117,7 @@
       <command value="mvn clean surefire-report:report" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailServiceTest.testSendEmailWithEmptyCustomHeader">
-    <configuration name="RestAssuredDemoTest.GetFilteredTestData_should_return_OK_when_resource_not_exists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab3" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;cdu.edu.ua.lab3.RestAssuredDemoTest.GetFilteredTestData_should_return_OK_when_resource_not_exists&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmailServiceTest">
     <configuration name="RestAssuredDemoTest.should_return_bad_request_when_body_is_invalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,6 +163,21 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="EmailServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cdu.edu.ua.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cdu.edu.ua.service" />
+      <option name="MAIN_CLASS_NAME" value="cdu.edu.ua.service.EmailServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EmailServiceTest.testSendEmailWithEmptyCustomHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-labs" />
@@ -247,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmailServiceTest" />
         <item itemvalue="JUnit.EmailServiceTest.testSendEmailWithEmptyCustomHeader" />
         <item itemvalue="JUnit.RestAssuredDemoTest" />
         <item itemvalue="Gradle.RestAssuredDemoTest.should_return_bad_request_when_dueDate_is_late" />
         <item itemvalue="Gradle.RestAssuredDemoTest.should_return_bad_request_when_body_is_invalid" />
-        <item itemvalue="Gradle.RestAssuredDemoTest.GetFilteredTestData_should_return_OK_when_resource_not_exists" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +266,7 @@
       <workItem from="1709755753066" duration="2258000" />
       <workItem from="1709821089521" duration="731000" />
       <workItem from="1709916709788" duration="4109000" />
+      <workItem from="1710416397862" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1709023511464</created>

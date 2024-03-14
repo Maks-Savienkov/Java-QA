@@ -25,32 +25,32 @@ public class EmailServiceTest {
     private EmailService emailService;
 
     @Test
-    void testSendEmail() {
+    void sendEmail() {
         emailService.sendEmail(recipient, subject, message);
 
         verify(emailSender).sendEmail(eq(recipient), eq(subject), eq(message));
     }
 
     @Test
-    public void testSendEmailFailure() {
+    public void sendEmail_should_throw_exception_when_sender_fail() {
         doThrow(EmailSenderException.class).when(emailSender).sendEmail(anyString(), anyString(), anyString());
 
         String exceptionMessage = assertThrows(
                 EmailSendingException.class,
-                () -> emailSender.sendEmail(recipient, subject, message)
+                () -> emailService.sendEmail(recipient, subject, message)
         ).getMessage();
         assertEquals("Failed to send email" , exceptionMessage);
     }
 
     @Test
-    public void testSendEmailEmptyMessage() {
+    public void sendEmail_should_fail_when_empty_message() {
         emailService.sendEmail(recipient, subject, "");
 
         verify(emailSender, never()).sendEmail(anyString(), anyString(), anyString());
     }
 
     @Test
-    public void testSendEmailWithCustomHeader() {
+    public void sendEmailWithCustomHeader() {
         String headerName = "X-Custom-Header";
         String headerValue = "CustomValue";
 
@@ -72,7 +72,7 @@ public class EmailServiceTest {
     }
 
     @Test
-    public void testSendEmailWithEmptyCustomHeader() {
+    public void sendEmailWithCustomHeader_should_fail_when_empty_custom_header() {
         String headerName = "";
         String headerValue = "";
 

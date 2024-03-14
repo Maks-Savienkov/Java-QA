@@ -23,6 +23,9 @@ public class EmailService {
     }
 
     public void sendEmailWithCustomHeader(String recipient, String subject, String message, String headerName, String headerValue) {
+        if (headerName.isEmpty() || headerValue.isEmpty()) {
+            return;
+        }
         try {
             emailSender.sendEmailWithCustomHeader(recipient, subject, message, headerName, headerValue);
         } catch (EmailSenderException e) {

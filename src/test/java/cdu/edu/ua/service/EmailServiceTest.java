@@ -70,4 +70,26 @@ public class EmailServiceTest {
                 eq(headerValue)
         );
     }
+
+    @Test
+    public void testSendEmailWithEmptyCustomHeader() {
+        String headerName = "";
+        String headerValue = "";
+
+        emailService.sendEmailWithCustomHeader(
+                recipient,
+                subject,
+                message,
+                headerName,
+                headerValue
+        );
+
+        verify(emailSender, never()).sendEmailWithCustomHeader(
+                eq(recipient),
+                eq(subject),
+                eq(message),
+                eq(headerName),
+                eq(headerValue)
+        );
+    }
 }
